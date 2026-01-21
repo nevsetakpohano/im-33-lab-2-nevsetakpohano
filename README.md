@@ -24,11 +24,11 @@
 
 ### 2. Запуск тестів
 
-```python -m pytest tests/ -v```
+```python -m pytest test/ -v```
 
 Або альтернативно:
 
-```python tests/test_calculator.py```
+```python test/test_calculator.py```
 
 ## Запуск програми
 ### Інтерактивний режим:
@@ -57,7 +57,7 @@
 
 ## Запуск всіх тестів
 
-```python -m pytest tests/ -v```
+```python -m pytest test/ -v```
 
 ## CI/CD (GitHub Actions)
 Налаштовано автоматичне тестування при кожному:
@@ -69,4 +69,4 @@ git push до гілок main або master
 Файл конфігурації: ```.github/workflows/ci.yml```
 
 ## Демонстраційне відео
-[[Посилання на демонстраційне відео]()]
+[[Посилання на демонстраційне відео](https://drive.google.com/file/d/1TePMlYMa5m1NMt_7HaCWaL0Bt0d2axS9/view?usp=drive_link)]
